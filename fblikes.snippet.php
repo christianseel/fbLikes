@@ -42,7 +42,7 @@ if (!$cached_data) {
 	// get page information from facebooks graph api (returns json data)
 	$graphdata = file_get_contents("http://graph.facebook.com/".$pageid);
 	// decode json response
-	$response = json_decode($graphdata, true);
+	$response = $modx->fromJSON($graphdata);
 	// get like number
 	$data = $response['likes'];
 
