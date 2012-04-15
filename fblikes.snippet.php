@@ -30,7 +30,7 @@
 
 $pageid = $modx->getOption('pageid',$scriptProperties,"19110642979");
 $expiretime = $modx->getOption('expiretime',$scriptProperties,"10800");
-$cacheKey = $modx->resource->getCacheKey().'/fblikes';
+$cacheKey = 'fblikes/' . $pageid;
 
 // get data from cache
 $cached_data = $modx->cacheManager->get($cacheKey);
