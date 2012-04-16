@@ -43,6 +43,9 @@ if (!$cached_data) {
 	$graphdata = file_get_contents("http://graph.facebook.com/".$pageid);
 	// decode json response
 	$response = $modx->fromJSON($graphdata);
+	if (!$response || !is_array($response) || !isset($response['likes'])) {
+		return 'Data currently not available.';
+	}
 	// get like number
 	$data = $response['likes'];
 
