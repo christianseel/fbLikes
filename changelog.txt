@@ -1,0 +1,17 @@
+fbLikes 1.0.2 (2012-05-10)
+====================================
+- removed default fanpage id
+- added error message if pageid is missing
+- modx package created
+
+
+fbLikes 1.0.1 (2012-04-16)
+====================================
+- cache now based on pageid
+- use modX.fromJSON() instead of json_decode()
+- add checks if graph api request was successfull
+
+
+fbLikes 1.0.0 (2012-04-15)
+====================================
+- initial release

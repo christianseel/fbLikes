@@ -5,7 +5,7 @@
  * Returns the number of fans for a facebook fanpage (via the graph api)
  *
  * @author Christian Seel
- * @version 1.0.0 - 2012-04-15
+ * @version 1.0.2 - 2012-05-10
  *
  * OPTIONS
  * pageid - the facebook id of your fanpage
