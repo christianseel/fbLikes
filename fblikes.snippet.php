@@ -23,14 +23,13 @@
  * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
  * A PARTICULAR PURPOSE. See the GNU General Public License for more details.
  *
- * You should have received a copy of the GNU General Public License along with
- * fbLikes; if not, write to the Free Software Foundation, Inc., 59 Temple Place,
- * Suite 330, Boston, MA 02111-1307 USA
  */
 
-$pageid = $modx->getOption('pageid',$scriptProperties,"19110642979");
+$pageid = $modx->getOption('pageid',$scriptProperties,"");
 $expiretime = $modx->getOption('expiretime',$scriptProperties,"10800");
 $cacheKey = 'fblikes/' . $pageid;
+
+if (empty($pageid)) return "You need to specify the fanpage id (pageid parameter)!";
 
 // get data from cache
 $cached_data = $modx->cacheManager->get($cacheKey);
