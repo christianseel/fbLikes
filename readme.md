@@ -4,7 +4,7 @@ fbLikes is an extra for MODX Revolution that returns the number of fans for a fa
 
 ## Download / Installation
 
-You can download the extra via MODX Package Management inside your Manager (search for "fbLikes") or grap it from http://modx.com/extras/package/fblikes
+You can install the extra via MODX Package Management inside your Manager (search for "fbLikes") or download it from http://modx.com/extras/package/fblikes
 
 
 ## Manual Installation Instructions
