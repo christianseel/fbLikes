@@ -10,6 +10,7 @@ You can install the extra via MODX Package Management inside your Manager (searc
 ## Manual Installation Instructions
 
 (If you don't like to install the extra via MODX Package Management...)
+
 1. Copy the contents of the snippet file (fblikes.snippet.php) from github
 2. Go to your MODX Revolution Manager, create a new snippet, paste the content from your clipboard and save it
 3. Open a resource or chunk (or wherever you want to display your fan number) and add the snippet call:
